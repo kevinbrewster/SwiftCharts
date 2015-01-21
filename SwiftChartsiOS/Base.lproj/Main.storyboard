@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--Simple-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController autoresizesArchivedViewToFullSize="NO" id="9pv-A4-QxB" customClass="SimpleLineChartViewController" customModule="SwiftChartsiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN" customClass="LineChartView" customModule="SwiftChartsiOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Simple" image="first" id="acW-dT-cKf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1892" y="646"/>
+        </scene>
+        <!--Advanced-->
+        <scene sceneID="Afk-cy-tby">
+            <objects>
+                <viewController id="5iR-GX-vMa" customClass="AdvancedLineChartViewController" customModule="SwiftChartsiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p8O-oo-FeB"/>
+                        <viewControllerLayoutGuide type="bottom" id="ycP-to-iH2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mJS-g0-MRW" customClass="LineChartView" customModule="SwiftChartsiOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Advanced" image="first" id="8ho-b1-Rji"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSS-mv-TLN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-752" y="646"/>
+        </scene>
+        <!--Labeled-->
+        <scene sceneID="AQo-84-Q20">
+            <objects>
+                <viewController id="8hM-MK-sF0" customClass="LabeledLineChartViewController" customModule="SwiftChartsiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jn9-Jg-QmI"/>
+                        <viewControllerLayoutGuide type="bottom" id="oim-cU-Xm2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6bJ-ji-UMs" customClass="LineChartView" customModule="SwiftChartsiOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Labeled" image="first" id="5IP-ab-btw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hzK-xI-H91" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="634"/>
+        </scene>
+        <!--Dynamic-->
+        <scene sceneID="LVQ-kG-sOw">
+            <objects>
+                <viewController id="tfD-jd-87t" customClass="DynamicLineChartViewController" customModule="SwiftChartsiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zZa-JI-1wh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rtr-Qe-avB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EWa-BL-TNa" customClass="LineChartView" customModule="SwiftChartsiOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Dynamic" image="first" id="g7q-VJ-Pkx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FpC-kr-ZI6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1559" y="628"/>
+        </scene>
+        <!--Mult Axis-->
+        <scene sceneID="7bM-IE-vL8">
+            <objects>
+                <viewController id="apc-c9-sTm" customClass="MultiAxisLineChartViewController" customModule="SwiftChartsiOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZBe-Lc-gOv"/>
+                        <viewControllerLayoutGuide type="bottom" id="y0I-cK-4lI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d9D-Q8-jF9" customClass="LineChartView" customModule="SwiftChartsiOS" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="719"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Mult Axis" image="first" id="7sj-O8-3Le"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fiO-b8-STS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2716" y="628"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="5iR-GX-vMa" kind="relationship" relationship="viewControllers" id="R6K-aQ-UHw"/>
+                        <segue destination="8hM-MK-sF0" kind="relationship" relationship="viewControllers" id="YSV-qQ-i9P"/>
+                        <segue destination="tfD-jd-87t" kind="relationship" relationship="viewControllers" id="jvN-z0-yw6"/>
+                        <segue destination="apc-c9-sTm" kind="relationship" relationship="viewControllers" id="zql-ze-Fos"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392" y="-306"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+    </resources>
+</document>
