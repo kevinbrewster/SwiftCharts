@@ -26,6 +26,7 @@ dataset2.curve = .Bezier(0.3)
 
 lineChart.datasets = [ dataset1, dataset2 ]
 ```
+![Advanced Example](http://kevinbrewster.github.io/SwiftCharts/images/advanced_example.png)
 
 ### Labeled Example
 
@@ -38,6 +39,7 @@ lineChart.xAxis.labels = ["January", "February", "March", "April", "June", "July
 var data: [CGFloat] = [0.003, 0.004, 0.009, 0.011, 0.013, 0.015, 0.004, 0.003, 0.009, 0.0075, 0.0061]
 lineChart.datasets = [ LineChart.Dataset(data, label: "My Data") ]
 ```
+![Labeled Example](http://kevinbrewster.github.io/SwiftCharts/images/labeled_example.png)
 
 ### Dynamic Example
 
@@ -51,6 +53,7 @@ view.lineChart.datasets = [ line ]
 let newRandomValue = arc4random() % 25
 line.data += [ CGFloat(newRandomValue) ]
 ```
+![Dynamic Example](http://kevinbrewster.github.io/SwiftCharts/images/dynamic_example.png)
 
 ### Multi-Axis Example
 
@@ -69,3 +72,4 @@ var axis3 = LineChart.Axis(alignment: .Right)
 var data3: [CGFloat] = [0.0021, 0.0056, 0.001, 0.003, 0.005, 0.002];
 lineChart.datasets += [ LineChart.Dataset(data3, label: "Three", yAxis: axis3) ]
 ```
+![Multiaxis Example](http://kevinbrewster.github.io/SwiftCharts/images/multiaxis_example.png)
