@@ -8,7 +8,7 @@ view.lineChart.datasets = [ LineChart.Dataset([3.0, 4.0, 9.0, 11.0, 15.0, 13.0])
 ![Simple Example](http://kevinbrewster.github.io/SwiftCharts/images/simple_example.png)
 
 # Installation
-1. Download just the LineChart.swift file, or download the example project (which includes various examples for both Mac and iOS).
+1. Download just the [LineChart.swift](https://raw.githubusercontent.com/kevinbrewster/SwiftCharts/master/SwiftCharts/LineChart.swift) file, or download the [example project](https://github.com/kevinbrewster/SwiftCharts/zipball/master) (which includes various examples for both Mac and iOS).
 2. Drag LineChart.swift into your Xcode project
 
 # Examples
